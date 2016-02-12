@@ -27,7 +27,7 @@ controller('PastMeetupsController', function($scope) {
 			Location2: "FoRTH",
 			GitHubLink: "https://github.com/devstaff-crete/meetup06-MobileDev",
 			LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-			MeetupLink: "",
+			MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/227356464/",
 			FacebookLink: ""
 		},{
 			Name: "Unit Testing",
