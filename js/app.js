@@ -6,6 +6,18 @@ angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
 	$scope.MeetupList = [
 		{
+			Name: "Secure Development",
+			Day: 11,
+			Month: 2,
+			Year: 2016,
+			Hour: "20:00",
+			Location: "Main Building",
+			Location2: "FoRTH",
+			GitHubLink: "https://github.com/devstaff-crete/meetup07-Security",
+			LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+			MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/228230597/",
+			FacebookLink: ""
+		},{
 			Name: "Mobile Development",
 			Day: 14,
 			Month: 1,
