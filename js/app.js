@@ -23,10 +23,10 @@ controller('PastMeetupsController', function($scope) {
 			Month: 2,
 			Year: 2016,
 			Hour: "20:00",
-			Location: "Main Building",
-			Location2: "FoRTH",
+			Location: "Science & Technology Park of Crete",
+			Location2: "STEP-C",
 			GitHubLink: "https://github.com/devstaff-crete/meetup07-Security",
-			LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+			LocationLink: "https://www.google.gr/maps/place/35%C2%B018'17.0%22N+25%C2%B004'25.1%22E/@35.3045299,25.0735486,19z/data=!4m2!3m1!1s0x0:0x0?hl=en,"
 			MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/228230597/",
 			FacebookLink: ""
 		},{
