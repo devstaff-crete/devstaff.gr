@@ -6,6 +6,18 @@ angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
 	$scope.MeetupList = [
 		{
+			Name: "IoT,
+			Day: 14,
+			Month: 4,
+			Year: 2016,
+			Hour: "20:00",
+			Location: "Main Building",
+			Location2: "FoRTH",
+			GitHubLink: "https://github.com/devstaff-crete/meetup09-IoT",
+			LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+			MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/229757515/",
+			FacebookLink: ""
+		},{
 			Name: "Business & StartUps",
 			Day: 10,
 			Month: 3,
@@ -13,10 +25,10 @@ controller('PastMeetupsController', function($scope) {
 			Hour: "20:00",
 			Location: "Main Building",
 			Location2: "FoRTH",
-			GitHubLink: "",
+			GitHubLink: "https://github.com/devstaff-crete/meetup08-Startups",
 			LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-			MeetupLink: "",
-			FacebookLink: ""
+			MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/228927029/",
+			FacebookLink: "https://www.facebook.com/media/set/?set=a.241398642870651.1073741838.103966656613851&type=3"
 		},{
 			Name: "Secure Development",
 			Day: 11,
