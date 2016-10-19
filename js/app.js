@@ -5,6 +5,19 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
 	$scope.MeetupList = [
+		        {
+                        Name: "React.js",
+                        Day: 10,
+                        Month: 11,
+                        Year: 2016,
+                        Hour: "20:00",
+                        Location: "Main Building",
+                        Location2: "FoRTH",
+                        GitHubLink: "https://github.com/devstaff-crete/meetup15-ReactJs",
+                        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+                        MeetupLink: "#",
+                        FacebookLink: "https://www.facebook.com/Devstaff/"
+                	},
                         {
                         Name: "SASS",
                         Day: 13,
