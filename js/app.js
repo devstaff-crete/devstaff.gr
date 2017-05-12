@@ -15,7 +15,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup22-AgileSoftwareDevelopment",
             LocationLink: "https://www.google.com/maps/place/%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CF%8C%CF%82+%CE%A7%CF%8E%CF%81%CE%BF%CF%82,+%CE%99%CE%B4%CF%81%CF%8D%CE%BC%CE%B1%CF%84%CE%B1+%CE%91.+%26+%CE%9C.+%CE%9A%CE%B1%CE%BB%CE%BF%CE%BA%CE%B1%CE%B9%CF%81%CE%B9%CE%BD%CE%BF%CF%8D/@35.3422929,25.1313681,17z/data=!4m13!1m7!3m6!1s0x149a5a2e4468d97b:0xc9b67f06818aa350!2sMonis+Agkarathou+9,+Iraklio+712+02,+Greece!3b1!8m2!3d35.3422929!4d25.1335568!3m4!1s0x149a5a2e443017fd:0xc010c2cffea2758c!8m2!3d35.3422929!4d25.1335568?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/238460133/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/855668337920511/"
         },
         {
             Name: "Remote Working",
@@ -28,7 +28,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup21-RemoteWorking",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/238459952/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/1242425105870998/"
         },
         {
             Name: "TOR",
@@ -41,7 +41,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup20-TOR",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/237701354/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/2010505249176756/"
         },
         {
             Name: "CMS",
@@ -67,7 +67,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup18-lightningTalks",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/236518707/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/1845932942344262/"
         },
         {
             Name: "Large Scale",
@@ -80,7 +80,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup17-largescale",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/235331576/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/222250681549230/"
         },
         {
             Name: "React.js",
@@ -93,7 +93,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup16-ReactJs",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/235052750/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/1755437638054955/"
         },
         {
             Name: "SASS",
@@ -106,7 +106,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup14-Sass",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/234328426/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/1326706860696128/"
         }, {
             Name: "Lightning talks",
             Day: 8,
@@ -118,7 +118,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup13-LightningTalks-SoftwareballGame",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/233882249/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/553774438147534/"
         }, {
             Name: "Password Management",
             Day: 14,
@@ -130,7 +130,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup12-infosec",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/232532246/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/830659580403057/"
         }, {
             Name: "NoSQL",
             Day: 9,
@@ -142,7 +142,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup11-NoSQL",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/231211928/",
-            FacebookLink: "https://www.facebook.com/Devstaff/"
+            FacebookLink: "https://www.facebook.com/events/1093527610719589/"
         }, {
             Name: "Design Patterns",
             Day: 12,
@@ -178,7 +178,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup08-Startups",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/228927029/",
-            FacebookLink: "https://www.facebook.com/media/set/?set=a.241398642870651.1073741838.103966656613851&type=3"
+            FacebookLink: "https://www.facebook.com/pg/Devstaff/"
         }, {
             Name: "Secure Development",
             Day: 11,
@@ -190,7 +190,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup07-Security",
             LocationLink: "https://www.google.gr/maps/place/35%C2%B018'17.0%22N+25%C2%B004'25.1%22E/@35.3045299,25.0735486,19z/data=!4m2!3m1!1s0x0:0x0?hl=en,",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/228230597/",
-            FacebookLink: ""
+            FacebookLink: "https://www.facebook.com/pg/Devstaff/"
         }, {
             Name: "Mobile Development",
             Day: 14,
@@ -202,7 +202,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup06-MobileDev",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/227356464/",
-            FacebookLink: ""
+            FacebookLink: "https://www.facebook.com/pg/Devstaff/"
         }, {
             Name: "Unit Testing",
             Day: 10,
@@ -214,7 +214,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup05-Testing",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/226695959/",
-            FacebookLink: ""
+            FacebookLink: "https://www.facebook.com/events/401621840034759/"
         }, {
             Name: "Design",
             Day: 12,
@@ -226,7 +226,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup04-Design",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/225897583/",
-            FacebookLink: "https://www.facebook.com/media/set/?set=a.182007272143122.1073741834.103966656613851&type=3"
+            FacebookLink: "https://www.facebook.com/events/1656715291235347/"
         }, {
             Name: "DevOps",
             Day: 8,
@@ -238,7 +238,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup03-DevOps",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/225364969/",
-            FacebookLink: "https://www.facebook.com/media/set/?set=a.167111943632655.1073741833.103966656613851&type=3"
+            FacebookLink: "https://www.facebook.com/events/164747263869144/"
         }, {
             Name: "NodeJS",
             Day: 10,
@@ -250,7 +250,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup02-NodeJS",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/223851144/",
-            FacebookLink: "https://www.facebook.com/media/set/?set=a.152265678450615.1073741832.103966656613851&type=3"
+            FacebookLink: "https://www.facebook.com/pg/Devstaff/"
         }, {
             Name: "Git VCS",
             Day: 9,
@@ -262,7 +262,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/meetup01-Git",
             LocationLink: "https://www.google.gr/maps/place/35%C2%B018'17.0%22N+25%C2%B004'25.1%22E/@35.3045299,25.0735486,19z/data=!4m2!3m1!1s0x0:0x0?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/223500458/",
-            FacebookLink: "https://www.facebook.com/Devstaff/photos/a.109069919436858.1073741831.103966656613851/109069929436857/?type=3&theater"
+            FacebookLink: "https://www.facebook.com/pg/Devstaff/"
         }
     ];
 });
