@@ -5,6 +5,19 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
+            Name: "Lightning Talks:",
+            Day: 12,
+            Month: 10,
+            Year: 2017,
+            Hour: "20:00",
+            Location: "Main Building",
+            Location2: "FoRTH",
+            GitHubLink: "https://github.com/devstaff-crete/meetup27-LightningTalks",
+            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+            MeetupLink: "https://www.meetup.com/preview/DevStaff-A-Developer-Community-Gathering-In-Crete/events/243718619/",
+            FacebookLink: "https://www.facebook.com/events/538660716473509/"
+        },
+        {
             Name: "Bitcoin, Blockchain and the future:",
             Day: 14,
             Month: 09,
