@@ -4,7 +4,20 @@ angular.module('PastMeetupsApp', [
 
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
-    $scope.MeetupList = [{
+    $scope.MeetupList = [       {
+            Name: "Microservices:",
+            Day: 09,
+            Month: 11,
+            Year: 2017,
+            Hour: "20:00",
+            Location: "Main Building",
+            Location2: "FoRTH",
+            GitHubLink: "https://github.com/devstaff-crete/meetup28-Microservices",
+            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4$
+            MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/244448594/",
+            FacebookLink: "https://www.facebook.com/events/207976283079230/"
+        },
+       {
             Name: "Lightning Talks:",
             Day: 12,
             Month: 10,
