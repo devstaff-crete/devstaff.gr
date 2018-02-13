@@ -9,7 +9,7 @@ controller('PastMeetupsController', function($scope) {
             Day: 15,
             Month: 02,
             Year: 2018,
-            Hour: "20:00",
+            Hour: "20:30",
             Location: "Main Building",
             Location2: "FoRTH",
             GitHubLink: "https://github.com/devstaff-crete/meetup31-FunctionalProgramming",
