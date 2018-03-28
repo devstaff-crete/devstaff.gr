@@ -7,7 +7,7 @@ controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
             Name: "From Coder to Manager",
             Day: 08,
-            Month: 02,
+            Month: 03,
             Year: 2018,
             Hour: "20:00",
             Location: "Main Building",
