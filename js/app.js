@@ -5,7 +5,7 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
-            Name: "Machine Learning",
+            Name: "GDPR",
             Day: 10,
             Month: 05,
             Year: 2018,
