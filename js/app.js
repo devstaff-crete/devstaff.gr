@@ -6,6 +6,19 @@ angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
             Name: "Machine Learning",
+            Day: 10,
+            Month: 05,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "ΠΑΓΚΡΗΤΙΑ ΣΥΝΕΤΑΙΡΙΣΤΙΚΗ ΤΡΑΠΕΖΑ ΣΥΝ.Π.Ε.",
+            Location2: "Λ. Ικάρου 5 & Εφέσου",
+            GitHubLink: "https://github.com/devstaff-crete/meetup34-GDPR",
+            LocationLink: "https://goo.gl/maps/BVxX2FiVWqr",
+            MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
+            FacebookLink: "https://www.facebook.com/events/907591992747749/"
+        },
+        {
+            Name: "Machine Learning",
             Day: 12,
             Month: 04,
             Year: 2018,
