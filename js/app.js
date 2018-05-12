@@ -1,3 +1,27 @@
+
+
+angular.module('SponsorsApp', [
+    'SponsorsApp.controllers'
+]);
+
+
+
+angular.module('SponsorsApp.controllers', []).
+controller('SponsorsController', function($scope) {
+
+    $scope.SponsorsImagesPath = "images/sponsors/";
+
+    $scope.SponsorsList = [{
+        Name: "Enartia",
+        Image: "EnartiaLogo.png",
+        HomeLink: "https://www.enartia.com/",
+        FacebookLink: "https://el-gr.facebook.com/EnartiaVenue/",
+        LinkedInLink: "https://www.linkedin.com/company/usableweb-ltd/"
+    }
+    ];
+});
+
+
 angular.module('PastMeetupsApp', [
     'PastMeetupsApp.controllers'
 ]);
@@ -5,42 +29,56 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
-            Name: "Machine Learning",
-            Day: 12,
-            Month: 04,
-            Year: 2018,
-            Hour: "19:00",
-            Location: "Main Building",
-            Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/meetup33-MachineLearning",
-            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-            MeetupLink: "https://www.meetup.com/devstaff/events/248921759/",
-            FacebookLink: "https://www.facebook.com/events/2139506102989049/"
-        }, {
-            Name: "From Coder to Manager",
-            Day: 08,
-            Month: 03,
-            Year: 2018,
-            Hour: "20:00",
-            Location: "Main Building",
-            Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/meetup32-FromCoderToManager",
-            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-            MeetupLink: "https://www.meetup.com/devstaff/events/248331146/",
-            FacebookLink: "https://www.facebook.com/events/2267792883246446/"
-        }, {
-            Name: "Functional Programming",
-            Day: 15,
-            Month: 02,
-            Year: 2018,
-            Hour: "20:30",
-            Location: "Main Building",
-            Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/meetup31-FunctionalProgramming",
-            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-            MeetupLink: "https://www.meetup.com/devstaff/events/247415782/",
-            FacebookLink: "https://www.facebook.com/events/1012503398897528/"
-        },
+        Name: "[GDPR] General Data Protection Regulation",
+        Day: 10,
+        Month: 05,
+        Year: 2018,
+        Hour: "19:00",
+        Location: "Leoforos Ikarou 5 · Heraklion",
+        Location2: "Pancretan Cooperative Bank",
+        GitHubLink: "https://github.com/devstaff-crete/meetup34-GDPR",
+        LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
+        MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
+        FacebookLink: "https://www.facebook.com/events/907591992747749/",
+        IsFutureMeetup: 0
+    }, {
+        Name: "Machine Learning",
+        Day: 12,
+        Month: 04,
+        Year: 2018,
+        Hour: "19:00",
+        Location: "Main Building",
+        Location2: "FoRTH",
+        GitHubLink: "https://github.com/devstaff-crete/meetup33-MachineLearning",
+        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+        MeetupLink: "https://www.meetup.com/devstaff/events/248921759/",
+        FacebookLink: "https://www.facebook.com/events/2139506102989049/",
+        IsFutureMeetup: 0
+    }, {
+        Name: "From Coder to Manager",
+        Day: 08,
+        Month: 03,
+        Year: 2018,
+        Hour: "20:00",
+        Location: "Main Building",
+        Location2: "FoRTH",
+        GitHubLink: "https://github.com/devstaff-crete/meetup32-FromCoderToManager",
+        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+        MeetupLink: "https://www.meetup.com/devstaff/events/248331146/",
+        FacebookLink: "https://www.facebook.com/events/2267792883246446/"
+    }, {
+        Name: "Functional Programming",
+        Day: 15,
+        Month: 02,
+        Year: 2018,
+        Hour: "20:30",
+        Location: "Main Building",
+        Location2: "FoRTH",
+        GitHubLink: "https://github.com/devstaff-crete/meetup31-FunctionalProgramming",
+        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+        MeetupLink: "https://www.meetup.com/devstaff/events/247415782/",
+        FacebookLink: "https://www.facebook.com/events/1012503398897528/"
+    },
         {
             Name: "Javascript - Node.js / React / Angular / etc.",
             Day: 11,
@@ -394,3 +432,4 @@ controller('PastMeetupsController', function($scope) {
         }
     ];
 });
+
