@@ -42,44 +42,42 @@ controller('PastMeetupsController', function($scope) {
         FacebookLink: "https://www.facebook.com/events/907591992747749/",
         IsFutureMeetup: 0
     }, {
-        Name: "Machine Learning",
-        Day: 12,
-        Month: 04,
-        Year: 2018,
-        Hour: "19:00",
-        Location: "Main Building",
-        Location2: "FoRTH",
-        GitHubLink: "https://github.com/devstaff-crete/meetup33-MachineLearning",
-        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-        MeetupLink: "https://www.meetup.com/devstaff/events/248921759/",
-        FacebookLink: "https://www.facebook.com/events/2139506102989049/",
-        IsFutureMeetup: 0
-    }, {
-        Name: "From Coder to Manager",
-        Day: 08,
-        Month: 03,
-        Year: 2018,
-        Hour: "20:00",
-        Location: "Main Building",
-        Location2: "FoRTH",
-        GitHubLink: "https://github.com/devstaff-crete/meetup32-FromCoderToManager",
-        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-        MeetupLink: "https://www.meetup.com/devstaff/events/248331146/",
-        FacebookLink: "https://www.facebook.com/events/2267792883246446/"
-    }, {
-        Name: "Functional Programming",
-        Day: 15,
-        Month: 02,
-        Year: 2018,
-        Hour: "20:30",
-        Location: "Main Building",
-        Location2: "FoRTH",
-        GitHubLink: "https://github.com/devstaff-crete/meetup31-FunctionalProgramming",
-        LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
-        MeetupLink: "https://www.meetup.com/devstaff/events/247415782/",
-        FacebookLink: "https://www.facebook.com/events/1012503398897528/"
-    },
-        {
+            Name: "Machine Learning",
+            Day: 12,
+            Month: 04,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Main Building",
+            Location2: "FoRTH",
+            GitHubLink: "https://github.com/devstaff-crete/meetup33-MachineLearning",
+            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+            MeetupLink: "https://www.meetup.com/devstaff/events/248921759/",
+            FacebookLink: "https://www.facebook.com/events/2139506102989049/"
+        }, {
+            Name: "From Coder to Manager",
+            Day: 08,
+            Month: 03,
+            Year: 2018,
+            Hour: "20:00",
+            Location: "Main Building",
+            Location2: "FoRTH",
+            GitHubLink: "https://github.com/devstaff-crete/meetup32-FromCoderToManager",
+            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+            MeetupLink: "https://www.meetup.com/devstaff/events/248331146/",
+            FacebookLink: "https://www.facebook.com/events/2267792883246446/"
+        }, {
+            Name: "Functional Programming",
+            Day: 15,
+            Month: 02,
+            Year: 2018,
+            Hour: "20:30",
+            Location: "Main Building",
+            Location2: "FoRTH",
+            GitHubLink: "https://github.com/devstaff-crete/meetup31-FunctionalProgramming",
+            LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
+            MeetupLink: "https://www.meetup.com/devstaff/events/247415782/",
+            FacebookLink: "https://www.facebook.com/events/1012503398897528/"
+        },{
             Name: "Javascript - Node.js / React / Angular / etc.",
             Day: 11,
             Month: 01,
@@ -432,4 +430,3 @@ controller('PastMeetupsController', function($scope) {
         }
     ];
 });
-
