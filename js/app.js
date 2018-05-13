@@ -1,3 +1,27 @@
+
+
+angular.module('SponsorsApp', [
+    'SponsorsApp.controllers'
+]);
+
+
+
+angular.module('SponsorsApp.controllers', []).
+controller('SponsorsController', function($scope) {
+
+    $scope.SponsorsImagesPath = "images/sponsors/";
+
+    $scope.SponsorsList = [{
+        Name: "Enartia",
+        Image: "EnartiaLogo.png",
+        HomeLink: "https://www.enartia.com/",
+        FacebookLink: "https://el-gr.facebook.com/EnartiaVenue/",
+        LinkedInLink: "https://www.linkedin.com/company/usableweb-ltd/"
+    }
+    ];
+});
+
+
 angular.module('PastMeetupsApp', [
     'PastMeetupsApp.controllers'
 ]);
@@ -5,19 +29,19 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
-            Name: "GDPR",
-            Day: 10,
-            Month: 05,
-            Year: 2018,
-            Hour: "19:00",
-            Location: "ΠΑΓΚΡΗΤΙΑ ΣΥΝΕΤΑΙΡΙΣΤΙΚΗ ΤΡΑΠΕΖΑ ΣΥΝ.Π.Ε.",
-            Location2: "Λ. Ικάρου 5 & Εφέσου",
-            GitHubLink: "https://github.com/devstaff-crete/meetup34-GDPR",
-            LocationLink: "https://goo.gl/maps/BVxX2FiVWqr",
-            MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
-            FacebookLink: "https://www.facebook.com/events/907591992747749/"
-        },
-        {
+        Name: "[GDPR] General Data Protection Regulation",
+        Day: 10,
+        Month: 05,
+        Year: 2018,
+        Hour: "19:00",
+        Location: "Leoforos Ikarou 5 · Heraklion",
+        Location2: "Pancretan Cooperative Bank",
+        GitHubLink: "https://github.com/devstaff-crete/meetup34-GDPR",
+        LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
+        MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
+        FacebookLink: "https://www.facebook.com/events/907591992747749/",
+        IsFutureMeetup: 0
+    }, {
             Name: "Machine Learning",
             Day: 12,
             Month: 04,
@@ -53,8 +77,7 @@ controller('PastMeetupsController', function($scope) {
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/devstaff/events/247415782/",
             FacebookLink: "https://www.facebook.com/events/1012503398897528/"
-        },
-        {
+        },{
             Name: "Javascript - Node.js / React / Angular / etc.",
             Day: 11,
             Month: 01,

@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .logo_img{
-  padding: 60px 30px;
+  padding: 30px 30px;
   float: left;
   width: 48%;
 }
@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{
 .navigation{
   float: right;
   position: relative;
-  top: 150px;
+  top: 100px;
   width: 50%;
   text-align: right;
   padding-right:30px;
@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6{
   color: #fff;
   border-bottom:0;
   text-align: center;
-  padding: 120px 10px;  
+  padding: 120px 10px;
 }
 
 .highlight{
@@ -234,8 +234,8 @@ body .footer h3{
 }
 
 .past-event{
-  padding: 30px 0px; 
-  color: white; 
+  padding: 30px 0px;
+  color: white;
 }
 
 .past-social{
@@ -315,7 +315,7 @@ a:focus{
 }
 
 @media (max-width: 700px){
-  
+
 
   .navigation ul{
     padding-right:30px;
@@ -334,4 +334,48 @@ a:focus{
     margin-top: 0;
     padding-top: 50px;
   }
+}
+
+
+.sponsor{
+  padding: 30px 0px;
+  color: white;
+}
+
+.sponsor-social{
+  padding-top: 40px;
+}
+
+.sponsor-name {
+  padding-top: 35px;
+}
+
+.sponsor-image{
+  max-height: 180px;
+}
+
+.sponsor-name a{
+  font-weight: 100;
+  font-size: 44px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sponsor .col-md-3,
+.sponsor .col-md-6{
+  text-align: center;
+}
+
+.sponsor.odd{
+  background: #707070;
+}
+
+.sponsor.even{
+  background: #555555;
+}
+
+
+.white-font{
+  color: white;
 }
