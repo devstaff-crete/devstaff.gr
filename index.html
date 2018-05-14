@@ -75,47 +75,49 @@
 
 
   <!-- Upcomign Events -->
-  <div id="events" class="event" ng-if="MeetupList[0].IsFutureMeetup==1">
-    <div class="container">
-      <a href="{{ MeetupList[0].MeetupLink }}" target="_blank">
-        <div class="col-md-3 odd meet">
-          <h3><span>UPCOMING</span> MEET UP</h3>
-          <div class="event_title">
-            <h4>{{ MeetupList[0].Name }}</h4>
-          </div>
-        </div>
-      </a>
-      <div class="col-md-3">
-        <div class="center">
-          <img src="images/calendar.png">
-        </div>
-        <div class="event_title date">
-          <h4>{{ MeetupList[0].Day }}<span>/{{ MeetupList[0].Month }}</span></h4>
-          <h3>{{ MeetupList[0].Year }}</h3>
-        </div>
-      </div>
+	<div id="events">
+	  <div class="event" ng-if="MeetupList[0].IsFutureMeetup==1">
+		<div class="container">
+		  <a href="{{ MeetupList[0].MeetupLink }}" target="_blank">
+		    <div class="col-md-3 odd meet">
+		      <h3><span>UPCOMING</span> MEET UP</h3>
+		      <div class="event_title">
+		        <h4>{{ MeetupList[0].Name }}</h4>
+		      </div>
+		    </div>
+		  </a>
+		  <div class="col-md-3">
+		    <div class="center">
+		      <img src="images/calendar.png">
+		    </div>
+		    <div class="event_title date">
+		      <h4>{{ MeetupList[0].Day }}<span>/{{ MeetupList[0].Month }}</span></h4>
+		      <h3>{{ MeetupList[0].Year }}</h3>
+		    </div>
+		  </div>
 
-      <a href="{{ MeetupList[0].LocationLink }}" target="_blank">
-        <div class="col-md-3 odd place">
-          <div class="center">
-            <img src="images/place.png">
-          </div>
-          <div class="event_title">
-            <h5>{{ MeetupList[0].Location }}</h5>
-			<h6>{{ MeetupList[0].Location2 }}</h6>
-          </div>
-        </div>
-      </a>
+		  <a href="{{ MeetupList[0].LocationLink }}" target="_blank">
+		    <div class="col-md-3 odd place">
+		      <div class="center">
+		        <img src="images/place.png">
+		      </div>
+		      <div class="event_title">
+		        <h5>{{ MeetupList[0].Location }}</h5>
+				<h6>{{ MeetupList[0].Location2 }}</h6>
+		      </div>
+		    </div>
+		  </a>
 
-      <div class="col-md-3 time">
-        <div class="center">
-          <img src="images/time.png">
-        </div>
-        <div class="event_title">
-          <h6>{{ MeetupList[0].Hour }}</h6>
-        </div>
-      </div>
-    </div>
+		  <div class="col-md-3 time">
+		    <div class="center">
+		      <img src="images/time.png">
+		    </div>
+		    <div class="event_title">
+		      <h6>{{ MeetupList[0].Hour }}</h6>
+		    </div>
+		  </div>
+		</div>
+	  </div>
   </div>
   <!-- End Upcoming Events -->
 

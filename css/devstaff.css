@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
   color: #fefefe;
   font-size: 42px;
-  line-height: 0.8em;
+ /*line-height: 0.8em;*/
 }
 
 .event_title h4 span{
