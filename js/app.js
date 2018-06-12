@@ -1,5 +1,3 @@
-
-
 angular.module('SponsorsApp', [
     'SponsorsApp.controllers'
 ]);
@@ -17,8 +15,7 @@ controller('SponsorsController', function($scope) {
         HomeLink: "https://www.enartia.com/",
         FacebookLink: "https://el-gr.facebook.com/EnartiaVenue/",
         LinkedInLink: "https://www.linkedin.com/company/usableweb-ltd/"
-    }
-    ];
+    }];
 });
 
 
@@ -29,19 +26,33 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
-        Name: "[GDPR] General Data Protection Regulation",
-        Day: 10,
-        Month: 05,
-        Year: 2018,
-        Hour: "19:00",
-        Location: "Leoforos Ikarou 5 · Heraklion",
-        Location2: "Pancretan Cooperative Bank",
-        GitHubLink: "https://github.com/devstaff-crete/meetup34-GDPR",
-        LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
-        MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
-        FacebookLink: "https://www.facebook.com/events/907591992747749/",
-        IsFutureMeetup: 0
-    }, {
+            Name: "IDEs: Super-charging your productivity!",
+            Day: 14,
+            Month: 06,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "https://github.com/devstaff-crete/meetup35-IDEs",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
+            MeetupLink: "https://www.meetup.com/devstaff/events/251061115/",
+            FacebookLink: "https://www.facebook.com/events/340225439839401/",
+            IsFutureMeetup: 0
+        },
+        {
+            Name: "[GDPR] General Data Protection Regulation",
+            Day: 10,
+            Month: 05,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "https://github.com/devstaff-crete/meetup34-GDPR",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
+            MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
+            FacebookLink: "https://www.facebook.com/events/907591992747749/",
+            IsFutureMeetup: 0
+        }, {
             Name: "Machine Learning",
             Day: 12,
             Month: 04,
@@ -77,7 +88,7 @@ controller('PastMeetupsController', function($scope) {
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/devstaff/events/247415782/",
             FacebookLink: "https://www.facebook.com/events/1012503398897528/"
-        },{
+        }, {
             Name: "Javascript - Node.js / React / Angular / etc.",
             Day: 11,
             Month: 01,
