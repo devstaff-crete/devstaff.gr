@@ -9,13 +9,29 @@ controller('SponsorsController', function($scope) {
 
     $scope.SponsorsImagesPath = "images/sponsors/";
 
-    $scope.SponsorsList = [{
+    $scope.SponsorsList = [
+        {
         Name: "Enartia",
         Image: "EnartiaLogo.png",
         HomeLink: "https://www.enartia.com/",
         FacebookLink: "https://el-gr.facebook.com/EnartiaVenue/",
         LinkedInLink: "https://www.linkedin.com/company/usableweb-ltd/"
-    }];
+        },
+        {
+        Name: "CyberLogic",
+        Image: "cyberlogic_logo.jpg",
+        HomeLink: "http://www.cyberlogic.gr/en/home/",
+        FacebookLink: "https://www.facebook.com/Cyberlogic.gr/",
+        LinkedInLink: "https://www.linkedin.com/company/cyberlogic-oe/"
+        },
+        {
+        Name: "Pancreta Cooperative Bank",
+        Image: "pagritia-logo.jpg",
+        HomeLink: "http://www.pancretabank.gr/",
+        FacebookLink: "https://www.facebook.com/pages/%CE%A0%CE%91%CE%93%CE%9A%CE%A1%CE%97%CE%A4%CE%99%CE%91-%CE%A4%CE%A1%CE%91%CE%A0%CE%95%CE%96%CE%91PANCRETA-BANK/139122389454549",
+        LinkedInLink: ""
+        }
+    ];
 });
 
 
