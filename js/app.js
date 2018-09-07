@@ -19,14 +19,14 @@ controller('SponsorsController', function($scope) {
         },
         {
         Name: "CyberLogic",
-        Image: "cyberlogic_logo.jpg",
+        Image: "cyberlogic_logo.png",
         HomeLink: "http://www.cyberlogic.gr/en/home/",
         FacebookLink: "https://www.facebook.com/Cyberlogic.gr/",
         LinkedInLink: "https://www.linkedin.com/company/cyberlogic-oe/"
         },
         {
         Name: "Pancreta Cooperative Bank",
-        Image: "pagritia-logo.jpg",
+        Image: "Logo_Pancreta.png",
         HomeLink: "http://www.pancretabank.gr/",
         FacebookLink: "https://www.facebook.com/pages/%CE%A0%CE%91%CE%93%CE%9A%CE%A1%CE%97%CE%A4%CE%99%CE%91-%CE%A4%CE%A1%CE%91%CE%A0%CE%95%CE%96%CE%91PANCRETA-BANK/139122389454549",
         LinkedInLink: ""
@@ -42,6 +42,34 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
+            Name: "[Back to School] Lightning Talks",
+            Day: 13,
+            Month: 09,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/254452437/",
+            FacebookLink: "",
+            IsFutureMeetup: 1
+        },
+        {
+            Name: "[Season Finale] Prototyping in Virtual Reality (VR)",
+            Day: 12,
+            Month: 07,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/252182856/",
+            FacebookLink: "",
+            IsFutureMeetup: 0
+        },
+        {
             Name: "IDEs: Super-charging your productivity!",
             Day: 14,
             Month: 06,
