@@ -352,6 +352,8 @@ a:focus{
 
 .sponsor-image{
   max-height: 180px;
+  max-width: 540px;
+  margin: auto;
 }
 
 .sponsor-name a{

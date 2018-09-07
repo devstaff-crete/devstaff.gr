@@ -139,13 +139,13 @@
           </a>
         </div>
         <div class="col-md-3 past-social">
-          <a target="_blank" href="{{ meetup.MeetupLink }}">
+          <a target="_blank" href="{{ meetup.MeetupLink }}" ng-show="meetup.MeetupLink!=''">
             <img title="meetup" alt="meetup" src="images/meet_grey.png">
           </a>
-          <a target="_blank" href="{{ meetup.GitHubLink }}">
+          <a target="_blank" href="{{ meetup.GitHubLink }}" ng-show="meetup.GitHubLink!=''">
             <img title="github" alt="github" src="images/git_grey.png">
           </a>
-          <a target="_blank" href="{{ meetup.FacebookLink }}">
+          <a target="_blank" href="{{ meetup.FacebookLink }}" ng-show="meetup.FacebookLink!=''">
             <img title="facebook" alt="facebook" src="images/fb_grey.png">
           </a>
         </div>
