@@ -49,11 +49,11 @@ controller('PastMeetupsController', function($scope) {
             Hour: "19:00",
             Location: "Leoforos Ikarou 5 · Heraklion",
             Location2: "Pancretan Cooperative Bank",
-            GitHubLink: "",
+            GitHubLink: "https://github.com/devstaff-crete/meetup37-LightningTalks",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
             MeetupLink: "https://www.meetup.com/devstaff/events/254452437/",
-            FacebookLink: "",
-            IsFutureMeetup: 1
+            FacebookLink: "https://www.facebook.com/events/2198043040410854/",
+            IsFutureMeetup: 0
         },
         {
             Name: "[Season Finale] Prototyping in Virtual Reality (VR)",
