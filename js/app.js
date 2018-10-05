@@ -42,6 +42,19 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
+            Name: "Remote Working: Hints, Tips, Advice, Pitfalls and open chat.",
+            Day: 11,
+            Month: 10,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/254452437/",
+            FacebookLink: "",
+            IsFutureMeetup: 1
+        },{
             Name: "[Back to School] Lightning Talks",
             Day: 13,
             Month: 09,
