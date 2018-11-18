@@ -42,6 +42,19 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
+            Name: "Elasticsearch.",
+            Day: 13,
+            Month: 12,
+            Year: 2018,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "https://github.com/devstaff-crete/meetup40-Elasticsearch",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/256432244/",
+            FacebookLink: "https://www.facebook.com/events/250855415592125/",
+            IsFutureMeetup: 1
+        },{
             Name: "Cloud-native Applications.",
             Day: 08,
             Month: 11,
