@@ -42,7 +42,7 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
-            Name: "Elasticsearch.",
+            Name: "Elasticsearch",
             Day: 13,
             Month: 12,
             Year: 2018,
