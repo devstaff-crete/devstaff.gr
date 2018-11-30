@@ -47,6 +47,11 @@ h1,h2,h3,h4,h5,h6{
   color: #2a8f9f;
 }
 
+.join .join-btn{
+  margin-left: 10px;
+  margin-right : 10px;
+}
+
 .community{
   background: url('../images/foto_01.jpg');
   padding-bottom: 120px;
