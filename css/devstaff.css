@@ -48,8 +48,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .join .join-btn{
-  margin-left: 10px;
-  margin-right : 10px;
+  margin: 20px 10px;
+  display: block;
 }
 
 .community{
@@ -357,7 +357,7 @@ a:focus{
 
 .sponsor-image{
   max-height: 180px;
-  max-width: 540px;
+  max-width: 100%;
   margin: auto;
 }
 
