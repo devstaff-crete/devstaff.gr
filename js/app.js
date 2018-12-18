@@ -60,7 +60,7 @@ controller('PastMeetupsController', function($scope) {
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
             MeetupLink: "https://www.meetup.com/devstaff/events/256432244/",
             FacebookLink: "https://www.facebook.com/events/250855415592125/",
-            IsFutureMeetup: 1
+            IsFutureMeetup: 0
         },{
             Name: "Cloud-native Applications.",
             Day: 08,
