@@ -49,6 +49,19 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
+            Name: "Microservices",
+            Day: 14,
+            Month: 03,
+            Year: 2019,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "https://github.com/devstaff-crete/meetup43-Microservices",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/259423881/",
+            FacebookLink: "https://www.facebook.com/events/2064704723646127/",
+            IsFutureMeetup: 1
+        },{
             Name: "Startup Idea Validation Kit",
             Day: 07,
             Month: 02,
