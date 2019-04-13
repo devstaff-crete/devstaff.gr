@@ -60,7 +60,7 @@ controller('PastMeetupsController', function($scope) {
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
             MeetupLink: "https://www.meetup.com/devstaff/events/260371485/",
             FacebookLink: "https://www.facebook.com/events/338129243715428/",
-            IsFutureMeetup: 1
+            IsFutureMeetup: 0
         },{
             Name: "Microservices",
             Day: 14,
