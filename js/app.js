@@ -49,7 +49,7 @@ angular.module('PastMeetupsApp', [
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
     $scope.MeetupList = [{
-            Name: "AutomatedTesting",
+            Name: "Automated Testing",
             Day: 13,
             Month: 06,
             Year: 2019,
