@@ -60,7 +60,7 @@ controller('PastMeetupsController', function($scope) {
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
             MeetupLink: "https://www.meetup.com/devstaff/events/262891225/",
             FacebookLink: "https://www.facebook.com/events/325745238316140/",
-            IsFutureMeetup: 1
+            IsFutureMeetup: 0
         },{
             Name: "Automated Testing",
             Day: 13,
