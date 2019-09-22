@@ -63,9 +63,11 @@
     </div>
     <div id="about" class="highlight">
       <div class="container">
-        <p>There's a lot of us, devs, here in Crete. Yet, we hardly ever get together in large groups, or even
-          know each other – somewhat strange for our small community, we hope you'll agree.
-          This group is an attempt at bringing us all together for informal chats about what we're all passionate about: technology and software. Join the meetup, learn, teach, speak your mind, sharpen your skills, share the knowledge and help us build a community where devs can openly exchange ideas!</p>
+        <p>
+          There's a lot of us, devs, here in Crete. Yet, we hardly ever get together in large groups, or even
+            know each other – somewhat strange for our small community, we hope you'll agree.
+            This group is an attempt at bringing us all together for informal chats about what we're all passionate about: technology and software. Join the meetup, learn, teach, speak your mind, sharpen your skills, share the knowledge and help us build a community where devs can openly exchange ideas!
+        </p>
       </div>
       <div class="row join">
         <div class="col-md-4">
@@ -135,7 +137,7 @@
   <!-- Past Events -->
   <div class="past-events">
 
-    <div ng-repeat="meetup in MeetupList" class="past-event {{ ((($index % 2) == 0) ? 'odd' : 'even') }}" ng-if="meetup.IsFutureMeetup==null || meetup.IsFutureMeetup!=1">
+    <div ng-repeat="meetup in MeetupList" class="past-event {{ ((($index % 2) == 0) ? 'odd' : 'even') }}" ng-if="(meetup.IsFutureMeetup==null || meetup.IsFutureMeetup!=1) && $index <= loadedMeetups">
       <div class="container">
         <div class="col-md-3 past-event-name">
           <a target="_blank" href="{{ meetup.GitHubLink }}">PAST EVENT<br><b>{{ meetup.Name }}</b></a>
@@ -159,6 +161,11 @@
             <img title="facebook" alt="facebook" src="images/fb_grey.png">
           </a>
         </div>
+      </div>
+      <div class="text-center" ng-show="totalPastMeetups() > loadedMeetups && $last!=true && $index==loadedMeetups">
+        <button type="button" class="btn btn-default btn-lg" ng-click="loadMoreMeetups()">
+          <span class="glyphicon glyphicon-refresh"></span> More Events
+        </button>
       </div>
     </div>
   <!-- End Past Events -->

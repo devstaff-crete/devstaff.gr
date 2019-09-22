@@ -6,7 +6,6 @@ angular.module('SponsorsApp', [
 
 angular.module('SponsorsApp.controllers', []).
 controller('SponsorsController', function($scope) {
-
     $scope.SponsorsImagesPath = "images/sponsors/";
 
     $scope.SponsorsList = [
@@ -48,6 +47,23 @@ angular.module('PastMeetupsApp', [
 
 angular.module('PastMeetupsApp.controllers', []).
 controller('PastMeetupsController', function($scope) {
+
+    $scope.loadedMeetups = 10;
+    $scope.loadExtraMeetups = 10;
+    $scope.loadMoreMeetups = function(){
+        $scope.loadedMeetups += $scope.loadExtraMeetups;
+        console.log($scope.loadedMeetups );
+    };
+    $scope.totalPastMeetups = function() {
+        pastMeetups = 0;
+        $scope.MeetupList.forEach(function (meetup) {
+            if (meetup.IsFutureMeetup!=1){
+                pastMeetups++;
+            }
+        });
+        return pastMeetups;
+    };
+
     $scope.MeetupList = [{
             Name: "Automation",
             Day: 12,
