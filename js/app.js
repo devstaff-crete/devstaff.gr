@@ -472,7 +472,7 @@ controller('PastMeetupsController', function($scope) {
             Hour: "20:00",
             Location: "Main Building",
             Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup14-Sass",
+            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup15-Sass",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "https://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/234328426/",
             FacebookLink: "https://www.facebook.com/events/1326706860696128/"
@@ -484,7 +484,7 @@ controller('PastMeetupsController', function($scope) {
             Hour: "20:00",
             Location: "Main Building",
             Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup13-LightningTalks-SoftwareballGame",
+            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup14-LightningTalks-SoftwareballGame",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/233882249/",
             FacebookLink: "https://www.facebook.com/events/553774438147534/"
@@ -496,7 +496,7 @@ controller('PastMeetupsController', function($scope) {
             Hour: "20:00",
             Location: "Main Building",
             Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup12-infosec",
+            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup13-infosec",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/232532246/",
             FacebookLink: "https://www.facebook.com/events/830659580403057/"
@@ -508,7 +508,7 @@ controller('PastMeetupsController', function($scope) {
             Hour: "20:00",
             Location: "Main Building",
             Location2: "FoRTH",
-            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup11-NoSQL",
+            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup12-NoSQL",
             LocationLink: "https://www.google.gr/maps/place/Foundation+for+Research+and+Technology+-+Hellas/@35.3051351,25.0725918,17z/data=!4m2!3m1!1s0x0000000000000000:0x0c8347768b841f2f?hl=en",
             MeetupLink: "http://www.meetup.com/DevStaff-A-Developer-Community-Gathering-In-Crete/events/231211928/",
             FacebookLink: "https://www.facebook.com/events/1093527610719589/"
