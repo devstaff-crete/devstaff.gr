@@ -65,6 +65,19 @@ controller('PastMeetupsController', function($scope) {
     };
 
     $scope.MeetupList = [{
+            Name: "Mobile App Development",
+            Day: 10,
+            Month: 10,
+            Year: 2019,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup49-MobileAppDevelopment",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/265374447/",
+            FacebookLink: "https://www.facebook.com/events/725191811286135/",
+            IsFutureMeetup: 0
+        },{
             Name: "Automation",
             Day: 12,
             Month: 09,
