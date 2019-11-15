@@ -72,7 +72,7 @@ controller('PastMeetupsController', function($scope) {
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup50-GraphQL",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
             MeetupLink: "https://www.meetup.com/devstaff/events/266177674/",
-            IsFutureMeetup: 1
+            IsFutureMeetup: 0
         },{
             Name: "Mobile App Development",
             Day: 10,
