@@ -62,6 +62,18 @@ controller('PastMeetupsController', function($scope) {
     };
 
     $scope.MeetupList = [{
+            Name: "IoT - Smart Home",
+            Day: 09,
+            Month: 01,
+            Year: 2020,
+            Hour: "19:00",
+            Location: "Leoforos Ikarou 5 · Heraklion",
+            Location2: "Pancretan Cooperative Bank",
+            GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup52-IoTSmartHome",
+            LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+            MeetupLink: "https://www.meetup.com/devstaff/events/267667245/",
+            IsFutureMeetup: 1
+        },{
             Name: "UI - UX",
             Day: 12,
             Month: 12,
