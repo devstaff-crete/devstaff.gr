@@ -60,6 +60,20 @@ controller('PastMeetupsController', function($scope) {
         });
         return pastMeetups;
     };
+    $scope.isFutureMeetup = function(day, month, year){
+        var now =new Date();
+        if (year<now.getFullYear()){
+            return false;
+        }
+        if (year==now.getFullYear() && month<now.getMonth()+1){
+            return false;
+        }
+        if (year==now.getFullYear() && month==now.getMonth()+1 && day<now.getDate()){
+            return false;
+        }
+        return true;
+    }
+    
 
     $scope.MeetupList = [{
             Name: "IoT - Smart Home",
@@ -71,8 +85,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup52-IoTSmartHome",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/267667245/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/267667245/"
         },{
             Name: "UI - UX",
             Day: 12,
@@ -83,8 +96,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup51-UIUX",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/266941393/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/266941393/"
         },{
             Name: "GraphQL",
             Day: 14,
@@ -95,8 +107,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup50-GraphQL",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/266177674/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/266177674/"
         },{
             Name: "Mobile App Development",
             Day: 10,
@@ -107,8 +118,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup49-MobileAppDevelopment",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/265374447/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/265374447/"
         },{
             Name: "Automation",
             Day: 12,
@@ -119,8 +129,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup48-Automation",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/264687108/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/264687108/"
         },{
             Name: "Privacy by Design (PbD)",
             Day: 11,
@@ -131,8 +140,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup47-PrivacyByDesign",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/262891225/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/262891225/"
         },{
             Name: "Automated Testing",
             Day: 13,
@@ -143,8 +151,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup46-AutomatedTesting",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/261809354/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/261809354/"
         },{
             Name: "Javascript",
             Day: 09,
@@ -155,8 +162,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup45-Javascript",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/261099327/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/261099327/"
         },{
             Name: "DevOps",
             Day: 11,
@@ -167,8 +173,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup44-DevOps",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/260371485/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/260371485/"
         },{
             Name: "Microservices",
             Day: 14,
@@ -179,8 +184,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup43-Microservices",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/259423881/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/259423881/"
         },{
             Name: "Startup Idea Validation Kit",
             Day: 07,
@@ -191,8 +195,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup42-StartupIdeaValidationKit",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/258288640/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/258288640/"
         },{
             Name: "Disaster Recovery: Beyond Backup Strategies",
             Day: 10,
@@ -203,8 +206,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup41-DisasterRecovery",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/257759964/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/257759964/"
         },{
             Name: "Elasticsearch",
             Day: 13,
@@ -215,8 +217,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup40-Elasticsearch",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/256432244/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/256432244/"
         },{
             Name: "Cloud-native Applications.",
             Day: 08,
@@ -227,8 +228,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup39-CloudNative",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/255971225/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/255971225/"
         },{
             Name: "Remote Working: Hints, Tips, Advice, Pitfalls and open chat.",
             Day: 11,
@@ -239,8 +239,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup38-RemoteWorking",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/255294273/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/255294273/"
         },{
             Name: "[Back to School] Lightning Talks",
             Day: 13,
@@ -251,8 +250,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup37-LightningTalks",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/254452437/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/254452437/"
         },
         {
             Name: "[Season Finale] Prototyping in Virtual Reality (VR)",
@@ -264,8 +262,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/DevStaff-Heraklion/tree/master/meetups/meetup36-PrototypingInVR",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-            MeetupLink: "https://www.meetup.com/devstaff/events/252182856/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/252182856/"
         },
         {
             Name: "IDEs: Super-charging your productivity!",
@@ -277,8 +274,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup35-IDEs",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
-            MeetupLink: "https://www.meetup.com/devstaff/events/251061115/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/251061115/"
         },
         {
             Name: "[GDPR] General Data Protection Regulation",
@@ -290,8 +286,7 @@ controller('PastMeetupsController', function($scope) {
             Location2: "Pancretan Cooperative Bank",
             GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup34-GDPR",
             LocationLink: "https://www.google.com/maps/search/?api=1&query=Leoforos+Ikarou+5%2C+Heraklion%2C+gr",
-            MeetupLink: "https://www.meetup.com/devstaff/events/250184418/",
-            IsFutureMeetup: 0
+            MeetupLink: "https://www.meetup.com/devstaff/events/250184418/"
         }, {
             Name: "Machine Learning",
             Day: 12,
