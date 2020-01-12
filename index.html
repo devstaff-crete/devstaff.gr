@@ -87,8 +87,8 @@
 
 
   <!-- Upcoming Events -->
-	<div id="events">
-	  <div class="event" ng-repeat="meetup in MeetupList" ng-if="isFutureMeetup(meetup.Day, meetup.Month, meetup.Year)">
+  <div id="events">
+    <div class="event" ng-repeat="meetup in MeetupList" ng-if="isFutureMeetup(meetup.Date, meetup.Hour)">
       <div class="container">
         <a href="{{ meetup.MeetupLink }}" target="_blank">
           <div class="col-md-3 odd meet">
@@ -103,8 +103,8 @@
             <img src="images/calendar.png">
           </div>
           <div class="event_title date">
-            <h4>{{ meetup.Day }}<span>/{{ meetup.Month }}</span></h4>
-            <h3>{{ meetup.Year }}</h3>
+            <h4>{{ meetup.Date.split('/')[0] }}<span>/{{ meetup.Date.split('/')[1] }}</span></h4>
+            <h3>{{ meetup.Date.split('/')[2] }}</h3>
           </div>
         </div>
         <a href="{{ meetup.LocationLink }}" target="_blank">
@@ -127,7 +127,7 @@
           </div>
         </div>
       </div>
-	  </div>
+    </div>
   </div>
   <!-- End Upcoming Events -->
 
@@ -135,13 +135,13 @@
   <!-- Past Events -->
   <div class="past-events">
 
-    <div ng-repeat="meetup in MeetupList" class="past-event {{ ((($index % 2) == 0) ? 'odd' : 'even') }}" ng-if="$index <= loadedMeetups && !isFutureMeetup(meetup.Day, meetup.Month, meetup.Year)">
+    <div ng-repeat="meetup in MeetupList" class="past-event {{ ((($index % 2) == 0) ? 'odd' : 'even') }}" ng-if="$index <= loadedMeetups && !isFutureMeetup(meetup.Date, meetup.Hour)">
       <div class="container">
         <div class="col-md-3 past-event-name">
           <a target="_blank" href="{{ meetup.GitHubLink }}">PAST EVENT<br><b>{{ meetup.Name }}</b></a>
         </div>
         <div class="col-md-3 past-event-date">
-          <h4><b>{{ meetup.Day }}</b>/{{ meetup.Month }}/{{ meetup.Year }}<br><b>{{ meetup.Hour }}</b></h4>
+          <h4><b>{{ meetup.Date.split('/')[0] }}</b>/{{ meetup.Date.split('/')[1] }}/{{ meetup.Date.split('/')[2] }}<br><b>{{ meetup.Hour }}</b></h4>
         </div>
         <div class="col-md-3 past-event-place">
           <a href="{{ meetup.LocationLink }}" target="_blank">
