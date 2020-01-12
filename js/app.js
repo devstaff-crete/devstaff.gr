@@ -72,9 +72,7 @@ controller('PastMeetupsController', function($scope) {
             return false;
         }
         return true;
-    }
-    
-
+    };
     $scope.MeetupList = [{
             Name: "IoT - Smart Home",
             Day: 09,
