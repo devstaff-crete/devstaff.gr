@@ -22,7 +22,7 @@ controller('SponsorsController', function($scope) {
     },
     {
       Name: 'Webtrails',
-      Image: 'Webtrails_Logo.png',
+      Image: 'Webtrails_logo.png',
       HomeLink: 'https://webtrails.gr/',
       FacebookLink: 'https://www.facebook.com/webtrails.gr/',
       LinkedInLink: 'https://www.linkedin.com/company/webtrails/'
