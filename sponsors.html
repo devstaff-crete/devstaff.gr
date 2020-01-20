@@ -32,7 +32,7 @@
     </script>
 </head>
 
-<body ng-app="SponsorsApp" ng-controller="SponsorsController">
+<body ng-app="SponsorsApp">
   <!--[if lt IE 7]>
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="https://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
@@ -73,8 +73,7 @@
   <!-- Press Coverage -->
 
   <!-- Sponsors -->
-  <div class="sponsors">
-
+  <div class="sponsors" ng-controller="SponsorsController">
     <div ng-repeat="sponsor in SponsorsList" class="sponsor {{ ((($index % 2) == 0) ? 'odd' : 'even') }}">
       <div class="container">
         <div class="col-md-3 sponsor-name">
@@ -112,6 +111,24 @@
   <div class="clear"></div>
   <!-- End Call to Action Bar -->
 
+  <!-- Partners -->
+  <div class="partners" ng-controller="PartnersController">
+    <div>
+      <div class="container">
+        <div class="row title">
+          Community Partners
+        </div>
+        <div class="row">
+          <div class="col-md-3 partner-image" ng-repeat="partner in PartnersList">
+            <a target="_blank" href="{{ partner.HomeLink }}">
+              <img ng-src="{{PartnersImagesPath}}{{partner.Image}}" class="img-responsive partner-image">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Partners -->
 
   <!-- Footer -->
   <div class="footer">

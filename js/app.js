@@ -1,5 +1,6 @@
 angular.module('SponsorsApp', [
-  'SponsorsApp.controllers'
+  'SponsorsApp.controllers', 
+  'PartnersApp.controllers'
 ]);
 
 angular.module('SponsorsApp.controllers', []).
@@ -37,8 +38,21 @@ controller('SponsorsController', function($scope) {
   ];
 });
 
+angular.module('PartnersApp.controllers', []).
+controller('PartnersController', function($scope) {
+  $scope.PartnersImagesPath = 'images/partners/';
+
+  $scope.PartnersList = [{
+      Name: 'Bizrupt',
+      Image: 'Bizrupt_Logo.png',
+      HomeLink: 'https://www.bizrupt.gr/'
+    },
+  ];
+});
+
 angular.module('PastMeetupsApp', [
-  'PastMeetupsApp.controllers'
+  'PastMeetupsApp.controllers', 
+  'PartnersApp.controllers'
 ]);
 
 angular.module('PastMeetupsApp.controllers', []).

@@ -387,6 +387,40 @@ a:focus{
 }
 
 
+
+.partners{
+  background: #AAAAAA;
+}
+
+.partners .container .title{
+  font-weight: 700;
+  font-size: 44px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.partner{
+  padding: 30px 0px;
+  color: white;
+}
+
+.partner-image{
+  max-height: 180px;
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.sponsor .col-md-3,
+.sponsor .col-md-6{
+  text-align: center;
+}
+
+
+
 .white-font{
   color: white;
 }
