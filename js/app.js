@@ -21,6 +21,13 @@ controller('SponsorsController', function($scope) {
       LinkedInLink: 'https://www.linkedin.com/company/pancretabank/'
     },
     {
+      Name: 'Webtrails',
+      Image: 'Webtrails_Logo.png',
+      HomeLink: 'https://webtrails.gr/',
+      FacebookLink: 'https://www.facebook.com/webtrails.gr/',
+      LinkedInLink: 'https://www.linkedin.com/company/webtrails/'
+    },
+    {
       Name: 'Office 12',
       Image: 'office12_logo.png',
       HomeLink: 'https://office12.gr/',
