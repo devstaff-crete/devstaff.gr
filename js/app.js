@@ -86,6 +86,15 @@ controller('PastMeetupsController', function($scope) {
     return meetupDate > now;
   };
   $scope.MeetupList = [{
+      Name: "VueJs",
+      Date: "13/02/2020",
+      Hour: "19:00",
+      Location: "Leoforos Ikarou 5 · Heraklion",
+      Location2: "Pancretan Cooperative Bank",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup53-VueJs",
+      LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
+      MeetupLink: "https://www.meetup.com/devstaff/events/268503438/"
+    },{
       Name: "IoT - Smart Home",
       Date: "09/01/2020",
       Hour: "19:00",
