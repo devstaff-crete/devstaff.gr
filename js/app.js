@@ -7,7 +7,8 @@ angular.module('SponsorsApp.controllers', []).
 controller('SponsorsController', function($scope) {
   $scope.SponsorsImagesPath = 'images/sponsors/';
 
-  $scope.SponsorsList = [{
+  $scope.SponsorsList = [
+    {
       Name: 'Enartia',
       Image: 'EnartiaLogo.png',
       HomeLink: 'https://www.enartia.com/',
@@ -85,8 +86,9 @@ controller('PastMeetupsController', function($scope) {
     var meetupDate = new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]).setHours(hour.split(':')[0], hour.split(':')[1], 0, 0);
     return meetupDate > now;
   };
-  $scope.MeetupList = [{
-      Name: "VueJs",
+  $scope.MeetupList = [
+    {
+      Name: "Vue.js",
       Date: "13/02/2020",
       Hour: "19:00",
       Location: "Leoforos Ikarou 5 · Heraklion",
@@ -94,7 +96,8 @@ controller('PastMeetupsController', function($scope) {
       GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup53-VueJs",
       LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
       MeetupLink: "https://www.meetup.com/devstaff/events/268503438/"
-    },{
+    },
+    {
       Name: "IoT - Smart Home",
       Date: "09/01/2020",
       Hour: "19:00",
