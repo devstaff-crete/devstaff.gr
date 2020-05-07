@@ -88,14 +88,14 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
-      Name: "Go Language",
-      Date: "12/03/2020",
+      Name: "Lighting Talks",
+      Date: "14/05/2020",
       Hour: "19:00",
-      Location: "Leoforos Ikarou 5 · Heraklion",
-      Location2: "Pancretan Cooperative Bank",
-      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup54-GoLanguage",
-      LocationLink: "https://www.google.com/maps/search/?api=1&query=35.338970%2C25.140550",
-      MeetupLink: "https://www.meetup.com/devstaff/events/269256549/"
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup54-LightingTalks",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/270468862/"
     },
     {
       Name: "Vue.js",
