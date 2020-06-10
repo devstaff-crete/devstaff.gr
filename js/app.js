@@ -88,6 +88,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "Go Language",
+      Date: "11/06/2020",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup55-GoLanguage",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/271128666/"
+    },
+    {
       Name: "Lightning Talks",
       Date: "14/05/2020",
       Hour: "19:00",
