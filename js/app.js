@@ -88,6 +88,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "Open Discussion - Back to socializing",
+      Date: "09/07/2020",
+      Hour: "19:00",
+      Location: "Eukaliptos Park",
+      Location2: "Next to the cantine",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup56-OpenDiscussion",
+      LocationLink: "https://www.google.com/maps/search/?api=1&query=35.332005%2C25.129463",
+      MeetupLink: "https://www.meetup.com/devstaff/events/271750197/"
+    },
+    {
       Name: "Go Language",
       Date: "11/06/2020",
       Hour: "19:00",
