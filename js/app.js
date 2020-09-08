@@ -88,6 +88,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "Availability and monitoring / alerting",
+      Date: "10/09/2020",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup57-AvailabilityAndMonitoringAlerting",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/273038979/"
+    },
+    {
       Name: "Open Discussion - Back to socializing",
       Date: "09/07/2020",
       Hour: "19:00",
