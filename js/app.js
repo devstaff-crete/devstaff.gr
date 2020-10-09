@@ -88,6 +88,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "gRPC: Forget about the REST",
+      Date: "08/10/2020",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup58-gRPC-Forget-about-the-REST",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/273573118/"
+    },
+    {
       Name: "Availability and monitoring / alerting",
       Date: "10/09/2020",
       Hour: "19:00",
