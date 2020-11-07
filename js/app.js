@@ -9,40 +9,47 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
-      Name: 'Enartia',
-      Image: 'EnartiaLogo.png',
-      HomeLink: 'https://www.enartia.com/',
-      FacebookLink: 'https://el-gr.facebook.com/EnartiaVenue/',
-      LinkedInLink: 'https://www.linkedin.com/company/usableweb-ltd/'
-    },
-    {
-      Name: 'Pancreta Cooperative Bank',
-      Image: 'Logo_Pancreta.png',
-      HomeLink: 'http://www.pancretabank.gr/',
-      FacebookLink: 'https://www.facebook.com/pages/%CE%A0%CE%91%CE%93%CE%9A%CE%A1%CE%97%CE%A4%CE%99%CE%91-%CE%A4%CE%A1%CE%91%CE%A0%CE%95%CE%96%CE%91PANCRETA-BANK/139122389454549',
-      LinkedInLink: 'https://www.linkedin.com/company/pancretabank/'
-    },
-    {
-      Name: 'Webtrails',
-      Image: 'Webtrails_logo.png',
-      HomeLink: 'https://webtrails.gr/',
-      FacebookLink: 'https://www.facebook.com/webtrails.gr/',
-      LinkedInLink: 'https://www.linkedin.com/company/webtrails/'
-    },
-    {
-      Name: 'Office 12',
-      Image: 'office12_logo.png',
-      HomeLink: 'https://office12.gr/',
-      FacebookLink: 'https://www.facebook.com/office12.gr',
-      LinkedInLink: 'https://www.linkedin.com/company/office_12-the-coworking-office/'
-    },
-    {
-      Name: 'CyberLogic',
-      Image: 'cyberlogic_logo.png',
-      HomeLink: 'http://www.cyberlogic.gr/en/home/',
-      FacebookLink: 'https://www.facebook.com/Cyberlogic.gr/',
-      LinkedInLink: 'https://www.linkedin.com/company/cyberlogic-oe/'
+      Name: 'JetBrains',
+      Image: 'jetbrains.png',
+      HomeLink: 'https://www.jetbrains.com/',
+      FacebookLink: 'https://www.facebook.com/JetBrains/',
+      LinkedInLink: 'https://www.linkedin.com/company/jetbrains/'
     }
+    // {
+    //   Name: 'Enartia',
+    //   Image: 'EnartiaLogo.png',
+    //   HomeLink: 'https://www.enartia.com/',
+    //   FacebookLink: 'https://el-gr.facebook.com/EnartiaVenue/',
+    //   LinkedInLink: 'https://www.linkedin.com/company/usableweb-ltd/'
+    // },
+    // {
+    //   Name: 'Pancreta Cooperative Bank',
+    //   Image: 'Logo_Pancreta.png',
+    //   HomeLink: 'http://www.pancretabank.gr/',
+    //   FacebookLink: 'https://www.facebook.com/pages/%CE%A0%CE%91%CE%93%CE%9A%CE%A1%CE%97%CE%A4%CE%99%CE%91-%CE%A4%CE%A1%CE%91%CE%A0%CE%95%CE%96%CE%91PANCRETA-BANK/139122389454549',
+    //   LinkedInLink: 'https://www.linkedin.com/company/pancretabank/'
+    // },
+    // {
+    //   Name: 'Webtrails',
+    //   Image: 'Webtrails_logo.png',
+    //   HomeLink: 'https://webtrails.gr/',
+    //   FacebookLink: 'https://www.facebook.com/webtrails.gr/',
+    //   LinkedInLink: 'https://www.linkedin.com/company/webtrails/'
+    // },
+    // {
+    //   Name: 'Office 12',
+    //   Image: 'office12_logo.png',
+    //   HomeLink: 'https://office12.gr/',
+    //   FacebookLink: 'https://www.facebook.com/office12.gr',
+    //   LinkedInLink: 'https://www.linkedin.com/company/office_12-the-coworking-office/'
+    // },
+    // {
+    //   Name: 'CyberLogic',
+    //   Image: 'cyberlogic_logo.png',
+    //   HomeLink: 'http://www.cyberlogic.gr/en/home/',
+    //   FacebookLink: 'https://www.facebook.com/Cyberlogic.gr/',
+    //   LinkedInLink: 'https://www.linkedin.com/company/cyberlogic-oe/'
+    // }
   ];
 });
 
@@ -69,7 +76,6 @@ controller('PastMeetupsController', function($scope) {
   $scope.loadExtraMeetups = 10;
   $scope.loadMoreMeetups = function() {
     $scope.loadedMeetups += $scope.loadExtraMeetups;
-    // console.log($scope.loadedMeetups);
   };
   $scope.totalPastMeetups = function() {
     pastMeetups = 0;
