@@ -84,6 +84,20 @@ controller('SponsorsController', function($scope) {
       HomeLink: 'https://www.sunlight.io/',
       FacebookLink: 'https://www.facebook.com/Sunlightio-236110340385376/',
       LinkedInLink: 'https://www.linkedin.com/company/sunlight-io'
+    },
+    {
+      Name: 'FORTH',
+      Image: 'forth_logo.png',
+      HomeLink: 'https://www.forth.gr/',
+      FacebookLink: 'https://www.facebook.com/FORTH.ITE/',
+      LinkedInLink: 'https://gr.linkedin.com/company/foundation-for-research-&-technology-hellas-forth-'
+    },
+    {
+      Name: 'CSD-UOC',
+      Image: 'uoc_logo.png',
+      HomeLink: 'https://www.csd.uoc.gr/CSD/index.jsp',
+      FacebookLink: 'https://el-gr.facebook.com/csd.uoc.gr/',
+      LinkedInLink: 'https://gr.linkedin.com/school/uoc-csd/'
     }
   ];
 });
