@@ -9,6 +9,13 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
+      Name: 'Fairlo',
+      Image: 'fairlo.png',
+      HomeLink: 'https://fairlo.se/',
+      FacebookLink: 'https://el-gr.facebook.com/fairlo.se/',
+      LinkedInLink: 'https://www.linkedin.com/company/fairlo/'
+    },
+    {
       Name: 'BestPrice',
       Image: 'bestprice.png',
       HomeLink: 'https://www.bestprice.gr/',
@@ -63,6 +70,20 @@ controller('SponsorsController', function($scope) {
       HomeLink: 'http://www.cyberlogic.gr/en/home/',
       FacebookLink: 'https://www.facebook.com/Cyberlogic.gr/',
       LinkedInLink: 'https://www.linkedin.com/company/cyberlogic-oe/'
+    },
+    {
+      Name: 'Phatweb',
+      Image: 'phatweb-logo.png',
+      HomeLink: 'https://phatweb.gr/',
+      FacebookLink: 'https://www.facebook.com/phatweb.gr/',
+      LinkedInLink: ''
+    },
+    {
+      Name: 'Sunlight',
+      Image: 'logo-sunlight-white.png',
+      HomeLink: 'https://www.sunlight.io/',
+      FacebookLink: 'https://www.facebook.com/Sunlightio-236110340385376/',
+      LinkedInLink: 'https://www.linkedin.com/company/sunlight-io'
     }
   ];
 });
