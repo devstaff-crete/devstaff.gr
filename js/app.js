@@ -143,6 +143,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "UI/UX Open discussion",
+      Date: "11/02/2021",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "hhttps://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup62-UI-UX-Open-Discussion",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/276153832/"
+    },
+    {
       Name: "Object Oriented Design Principles",
       Date: "14/01/2021",
       Hour: "19:00",
