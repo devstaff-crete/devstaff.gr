@@ -143,6 +143,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "Dart / Flutter",
+      Date: "11/03/2021",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup63-Dart-Flutter",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/276717763/"
+    },
+    {
       Name: "UI/UX Open discussion",
       Date: "11/02/2021",
       Hour: "19:00",
