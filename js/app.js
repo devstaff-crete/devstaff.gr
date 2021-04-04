@@ -143,6 +143,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "Laravel PHP Framework",
+      Date: "08/04/2021",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup64-Laravel-PHP-Framework",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/277232144/"
+    },
+    {
       Name: "Dart / Flutter",
       Date: "11/03/2021",
       Hour: "19:00",
