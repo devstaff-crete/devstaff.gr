@@ -150,6 +150,26 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "Java Next - From Amber to Loom, from Panama to Valhalla",
+      Date: "07/06/2022",
+      Hour: "19:00",
+      Location: "FoRTH",
+      Location2: "ENISA Building",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup72-Java-Next",
+      LocationLink: "https://www.google.com/maps/place/35%C2%B018'21.4%22N+25%C2%B004'28.8%22E/@35.30594,25.074657,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xe51f99caa40ecf3c!8m2!3d35.30594!4d25.074657",
+      MeetupLink: "https://www.meetup.com/devstaff/events/286142452/"
+    },
+    {
+      Name: "IntelliJ super productivity",
+      Date: "10/02/2022",
+      Hour: "19:00",
+      Location: "Online meetup",
+      Location2: "through zoom",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup71-IntelliJ-super-productivity",
+      LocationLink: "",
+      MeetupLink: "https://www.meetup.com/devstaff/events/283802958/"
+    },
+    {
       Name: "Monitoring and Alerting Tools",
       Date: "13/01/2022",
       Hour: "19:00",
