@@ -150,6 +150,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "DeFi - Reshaping the very essence of finance and economies",
+      Date: "14/07/2022",
+      Hour: "19:00",
+      Location: "FoRTH",
+      Location2: "Step-C Building",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup73-Decentralized-Finance",
+      LocationLink: "https://www.google.com/maps/place/35%C2%B018'21.4%22N+25%C2%B004'28.8%22E/@35.30594,25.074657,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xe51f99caa40ecf3c!8m2!3d35.30594!4d25.074657",
+      MeetupLink: "https://www.meetup.com/devstaff/events/286994191/"
+    },
+    {
       Name: "Java Next - From Amber to Loom, from Panama to Valhalla",
       Date: "07/06/2022",
       Hour: "19:00",
