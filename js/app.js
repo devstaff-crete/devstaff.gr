@@ -9,6 +9,13 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
+      Name: 'Advantage FSE',
+      Image: 'advantage_fse.png',
+      HomeLink: 'https://www.afse.eu/',
+      FacebookLink: 'https://www.facebook.com/AdvantageFSE/',
+      LinkedInLink: 'https://www.linkedin.com/company/advantage-fse/'
+    },
+    {
       Name: 'Step-C',
       Image: 'step-c_logo_EN.png',
       HomeLink: 'https://www.stepc.gr',
