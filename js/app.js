@@ -9,6 +9,20 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
+      Name: 'Vodafone Greece',
+      Image: 'Vodafone-logo.png',
+      HomeLink: 'https://www.vodafone.gr/',
+      FacebookLink: 'https://www.facebook.com/vodafonegreece/',
+      LinkedInLink: 'https://www.linkedin.com/company/vodafone/'
+    },
+    {
+      Name: 'Oxygen Pelatologio',
+      Image: 'Oxygen-logo.png',
+      HomeLink: 'https://www.oxygen.gr/',
+      FacebookLink: 'https://facebook.com/pelatologio/',
+      LinkedInLink: 'https://www.linkedin.com/company/pelatologio/'
+    },
+    {
       Name: 'Advantage FSE',
       Image: 'advantage_fse.png',
       HomeLink: 'https://www.afse.eu/',
