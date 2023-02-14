@@ -17,7 +17,7 @@ controller('SponsorsController', function($scope) {
     },
     {
       Name: 'Step-C',
-      Image: 'step-c_logo_EN.png',
+      Image: 'stepc-en.jpg',
       HomeLink: 'https://www.stepc.gr',
       FacebookLink: 'https://el-gr.facebook.com/STEPCRETE/',
       LinkedInLink: 'https://www.linkedin.com/company/science-and-technology-park'
