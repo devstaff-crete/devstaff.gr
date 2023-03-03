@@ -171,6 +171,16 @@ controller('PastMeetupsController', function($scope) {
   };
   $scope.MeetupList = [
     {
+      Name: "React & Next.js",
+      Date: "09/03/2023",
+      Hour: "19:00",
+      Location: "FoRTH",
+      Location2: "Step-C Building",
+      GitHubLink: "https://github.com/devstaff-crete/DevStaff-Heraklion/tree/master/meetups/meetup77-React-and-Nextjs",
+      LocationLink: "https://www.google.com/maps/place/35%C2%B018'21.4%22N+25%C2%B004'28.8%22E/@35.30594,25.074657,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xe51f99caa40ecf3c!8m2!3d35.30594!4d25.074657",
+      MeetupLink: "https://www.meetup.com/devstaff/events/291958795/"
+    },
+    {
       Name: "Web Accessibility",
       Date: "09/02/2023",
       Hour: "19:00",
