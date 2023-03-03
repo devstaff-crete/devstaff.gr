@@ -9,6 +9,13 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
+      Name: 'Telestrider',
+      Image: 'telestrider.png',
+      HomeLink: 'https://telestrider.com/',
+      FacebookLink: 'https://www.facebook.com/telestrider',
+      LinkedInLink: 'https://www.linkedin.com/company/telestrider/'
+    },
+    {
       Name: 'Vodafone Greece',
       Image: 'Vodafone-logo.png',
       HomeLink: 'https://www.vodafone.gr/',
