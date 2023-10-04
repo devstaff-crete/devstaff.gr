@@ -9,6 +9,13 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
+      Name: 'Epignosis',
+      Image: 'EpignosisLogo.png',
+      HomeLink: 'https://www.epignosishq.com/',
+      FacebookLink: 'https://www.facebook.com/epignosishq/',
+      LinkedInLink: 'https://www.linkedin.com/company/epignosis-ltd/'
+    },
+    {
       Name: 'Telestrider',
       Image: 'telestrider.png',
       HomeLink: 'https://telestrider.com/',
