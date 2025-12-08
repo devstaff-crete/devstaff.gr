@@ -2,6 +2,7 @@
 
 > [!CAUTION]
 > This is the code for the pre-2025 devstaff.gr
+> 
 > You can find the new website [here](https://github.com/devstaff-crete/devstaff-website).
 
 This repository contains all the static files that are being deployed to the
@@ -15,4 +16,5 @@ to do the simple `for` loop, and display all meetups, an `if` to alternate the
 
 The dynamic parts that are controlled by Angular are in `js/app.js`, inside the
 source code of the application.
+
 
